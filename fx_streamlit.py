@@ -6,7 +6,6 @@ import json
 import base64
 
 
-# %%
 @st.cache
 def get(url):
     return requests.get(url)
